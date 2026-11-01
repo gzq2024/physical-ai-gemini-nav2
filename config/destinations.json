@@ -1,0 +1,14 @@
+{
+  "frame_id": "map",
+  "initial_pose": null,
+  "destinations": {
+    "SHELF_A": {"x":1.95, "y":-0.19, "yaw": 0.0},
+    "SHELF_B": {"x":-1.75, "y":-1.06, "yaw": 0.0}
+  },
+  "navigate_timeout_sec": 150,
+  "cancel_timeout_sec": 10,
+  "world_wait_sec": 12,
+  "max_replans": 2,
+  "api_timeout_ms": 30000,
+  "gemini_model": "gemini-robotics-er-2-preview"
+}

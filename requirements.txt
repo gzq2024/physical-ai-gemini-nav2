@@ -1,0 +1,4 @@
+# ROS 2 Python (rclpy/nav2_simple_commander) はROS 2 Humbleのapt版を利用します。
+# Interactions APIは2026-06-08に旧outputsスキーマ廃止。SDK 2.x以降必須。
+# 2026-10-27時点でPyPIにある動作候補を固定。新バージョンは別途検証してください。
+google-genai==2.33.0

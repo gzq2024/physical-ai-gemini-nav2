@@ -1,0 +1,31 @@
+# API Keys / Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ROS 2
+build/
+install/
+log/
+
+# Logs
+*.log
+logs/*
+
+# Videos
+*.mp4
+
+# ROS Bags
+*.bag
+*.db3
+*.mcap
+
+# outputs
+outputs/*
